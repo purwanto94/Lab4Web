@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Kontak</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Kontak</h1>
+			</header>
+			<nav>
+				<a href="home.html">Home
+				</a>
+				<a href="artikel.html">Artikel
+				</a>
+				<a href="about.html">About
+				</a>
+				<a href="kontak.html"  class="active">Kontak
+				</a>
+			</nav>
+			<section id="hero">
+				<h1>Form Kontak</h1>
+				<form action="proses.php" method="post">
+					<p>
+						<label for="nama">Nama</label>
+						<input type="text" id="nama" name="nama">
+					</p>
+					<p>
+						<label for="email">Email</label>
+						<input type="text" id="email" name="email">
+					</p>
+					<p>
+						<label for="hp">No HP</label>
+						<input type="text" id="hp" name="hp">
+					</p>
+					<p>
+						<label for="pesan">Pesan</label>
+						<textarea id="pesan" name="pesan" cols="20" rows="4"></textarea>
+					</p>
+					<p>
+						<input type="submit" value="Kirim">
+					</p>
+				</form>
+			</section>
+			<footer>
+				<p>&copy; 2021 - Universitas Pelita Bangsa
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
